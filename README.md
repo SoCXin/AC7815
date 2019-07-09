@@ -6,7 +6,7 @@
 
 基于Cortex-M4的STM32F373产品线集成了16位的sigma-delta ADC，应用需要高精度的测量及强大的信号处理。
 
-[![sites](SoC/STM32F373.jpg)](https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f3-series/STM32F373.html) 
+[![sites](SoC/STM32F373.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32f373.html#overview) 
 
 
 ### 关键参数：
@@ -20,6 +20,7 @@
 * ROM: 64 to 256 Kbytes
 * GPIO: 48 to 100 pins
 
+[![sites](SoC/STM32FP.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32f373.html#overview) 
 
 ### [收录资源](https://github.com/sochub/STM32F373)
 
