@@ -2,9 +2,10 @@
 [![sites](SoC/qitas.png)](http://www.qitas.cn) 
 #### 父级：[STM32F3](https://github.com/sochub/STM32F3)
 #### 架构：[Cortex M4](https://github.com/sochub/CM4) 
+#### 收录芯片定级：[Level](https://github.com/sochub/Level)
 ### [STM32F373简介](https://github.com/sochub/STM32F373/wiki)
 
-基于Cortex-M4的STM32F373产品线集成了16位的sigma-delta ADC，应用需要高精度的测量及强大的信号处理。
+[STM32F373](https://github.com/sochub/STM32F373) 基于Cortex-M4的STM32F373产品线集成了16位的sigma-delta ADC，应用需要高精度的测量及强大的信号处理，该系列共有9款不同规格产品。
 
 [![sites](SoC/STM32F373.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32f373.html#overview) 
 
@@ -24,8 +25,8 @@
 
 ### [收录资源](https://github.com/sochub/STM32F373)
 
-* [参考文档](docs/)
-* [参考资源](src/)
+* [文档](docs/)
+* [资源](src/)
 
 ### [关联资源](https://github.com/sochub)
 
@@ -35,10 +36,6 @@
 
 在STM32F3系列中[STM32F373](https://github.com/sochub/STM32F373)是唯一配备16位 sigma-delta ADC外设的型号，对于高精度ADC有需求的场景十分合适。
 
-* 向上替换方案 [STM32F303](https://github.com/sochub/STM32F303) 
 * 向下替换方案 [STM32F301](https://github.com/sochub/STM32F301) 
 
 ##  [SoC资源平台](http://www.qitas.cn)
-
-
-
