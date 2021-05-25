@@ -22,6 +22,8 @@ settings/
 Debug/
 *.code-workspace
 Doc
+.vs
+*.vscode
 *xlsx
 *scvd
 *uvopt*
@@ -29,9 +31,10 @@ Doc
 # *.exe
 *.out
 *.mac
+*.json
 *.board
 *launch
-*sc*
+*core_sc*
 *cm23*
 *cm3*
 *cm7*
