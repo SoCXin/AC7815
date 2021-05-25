@@ -20,3 +20,20 @@
 iDesigner_Project/
 settings/
 Debug/
+*.code-workspace
+Doc
+*xlsx
+*scvd
+*uvopt*
+*副本*
+# *.exe
+*.out
+*.mac
+*.board
+*launch
+*sc*
+*cm23*
+*cm3*
+*cm7*
+*cm1*
+*cm0*
