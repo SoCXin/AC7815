@@ -18,9 +18,8 @@
 
 #### 封装规格
 
-* QFN32
-* LQFP48
-* TSSOP20
+* LQFP80
+* LQFP64
 
 ### [资源收录](https://github.com/SoCXin)
 
