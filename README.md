@@ -1,41 +1,35 @@
-﻿# [STM32F373](https://github.com/sochub/STM32F373) 
-[![sites](SoC/qitas.png)](http://www.qitas.cn) 
-#### 父级：[STM32F3](https://github.com/sochub/STM32F3)
-#### 架构：[Cortex M4](https://github.com/sochub/CM4) 
-#### 收录芯片定级：[Level](https://github.com/sochub/Level)
-### [STM32F373简介](https://github.com/sochub/STM32F373/wiki)
+﻿# [AC7815](https://github.com/SoCXin/AC7815)
 
-[STM32F373](https://github.com/sochub/STM32F373) 基于Cortex-M4的STM32F373产品线集成了16位的sigma-delta ADC，应用需要高精度的测量及强大的信号处理，该系列共有9款不同规格产品。
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-[![sites](SoC/STM32F373.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32f373.html#overview) 
+* [autochips](http://www.autochips.com/)：[Cortex-M3](https://github.com/SoCXin/Cortex)
+* [L4R4](https://github.com/SoCXin/Level) ：100 MHz * 1.25 DMIPS/MHz (285CoreMark)
 
+## [简介](https://github.com/SoCXin/AC7815/wiki)
 
-### 关键参数：
+[AC7815](https://github.com/SoCXin/AC7815) 系列为车规MCU，符合AEC-Q100规范，适用于汽车电子和高可靠性工业应用，典型应用包括车身控制、T-BOX、BLDC电机控制、工业控制、交流充电桩等；具备出色的EMC/ESD能力，能够适应更恶劣的环境；
 
-* 3 x 16位 sigma-delta ADC、多达21条单通道或11条差分通道、每条通道均具有7种可编程增益
-* 采样率高达1M的12位ADC模块
-* 多达2个比较器
-* 多达3个12位DAC
-* USB FS和CAN 2.0B通信接口
+[![sites](docs/AC7815.png)](http://www.autochips.com/jk/MCU1/index_225.aspx?pid=531&typeid=225)
 
-* ROM: 64 to 256 Kbytes
-* GPIO: 48 to 100 pins
+### 关键特性
 
-[![sites](SoC/STM32FP.jpg)](https://www.st.com/zh/microcontrollers-microprocessors/stm32f373.html#overview) 
+* 2 x CAN 2.0B
+* 温度范围: -40 to 125 °C
 
-### [收录资源](https://github.com/sochub/STM32F373)
+#### 封装规格
 
-* [文档](docs/)
-* [资源](src/)
+* QFN32
+* LQFP48
+* TSSOP20
 
-### [关联资源](https://github.com/sochub)
+### [资源收录](https://github.com/SoCXin)
 
-* [编译工具](https://github.com/sochub/arm-none-eabi)
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
 
-### [选型建议](https://github.com/sochub/STM32F373)
+### [选型建议](https://github.com/SoCXin)
 
-在STM32F3系列中[STM32F373](https://github.com/sochub/STM32F373)是唯一配备16位 sigma-delta ADC外设的型号，对于高精度ADC有需求的场景十分合适。
+[AC7815](https://github.com/SoCXin/AC7815)
 
-* 向下替换方案 [STM32F301](https://github.com/sochub/STM32F301) 
-
-##  [SoC资源平台](http://www.qitas.cn)
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
