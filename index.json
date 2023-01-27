@@ -1,28 +1,35 @@
 {
-    "type":"MCU",
+    "type":"SoC",
     "name":"AC7815",
-    "series":["AC7815"],
-    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
-    "package":["UFBGA100","LQFP100","LQFP64","WLCSP49","UFQFN48"],
+    "title": "autochips AC7815 MCU",
+    "description":"autochips AEC-Q100 MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M3",
+        "Fmax":100,
+        "DMIPS": 125,
+        "CoreMark": 285
+    },
     "manufacturer": {
         "vendor":"autochips",
-        "homepage":"http://www.autochips.com/jk/MCU1/index_225.aspx?pid=530&typeid=225"
+        "homepage":"http://www.autochips.com"
     },
-    "url":"http://www.SoC.xin/AC7815",
-    "repo":"https://github.com/SoCXin/AC7815",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/AC7815.git"
+    },
     "version":"1.0.0",
-    "AC7815": {
-        "SRAM":20000,
-        "Flash":64000,
-        "package":"QFN20",
-        "peripheral": ["ADC","TIM","PWM"],
-        "GPIO":18,
-        "price":6.8
+    "series":["AC7815"],
+    "package":["LQFP80","LQFP64"],
+    "peripheral": ["AEC-Q100","ADC","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
     },
-    "ADC": {
-        "num": 1,
-        "channel": 8,
-        "resolution": 12,
-        "rate": 1024
-    }
+    "keywords": [
+        "Cortex-M3",
+        "autochips",
+        "AEC-Q100","ADC","I2C","RTC","SPI","UART",
+        "5.5V","2.7V"
+    ]
 }
